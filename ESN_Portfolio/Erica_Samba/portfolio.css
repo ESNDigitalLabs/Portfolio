@@ -80,11 +80,13 @@ body{
      text-align: center;    
  
  }
-#examples>i{
+#examples>ul{
     justify-content: center;
+    display: block;
     font-size: 20px;
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
     align-content: center;
+    cursor: pointer;
 }
 .s4 { 
     padding-top: 0;
