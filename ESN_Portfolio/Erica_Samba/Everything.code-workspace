@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../ericasamba-ngoie/Everything/Everything"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-projects"
+	}
+}

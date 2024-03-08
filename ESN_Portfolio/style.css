@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+
+}
+nav {
+    /* background-position: right top;
+    background-repeat: no-repeat; */
+    display: block;
+    float: right;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px;
+    height: 70px;
+    width: 100%;
+    color: black;
+    
+}
+li {
+    font-size: 20px;
+    width: 150px;
+    /* border-radius: 40px;
+    border: 1px; */
+    padding: 20px;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    /* background-color: #eddfea;
+    opacity: unset; */
+    text-decoration: none;
+    float: right;
+   
+   
+}
+li:hover{
+    background-color: rgb(19, 19, 21);
+    opacity: unset;
+    color: #eddfea;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+
+}
+body {
+    margin: 0px;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    background-image: url('/web-projects/Portfolio/ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    background-size: 100%; 
+    color:  #eddfea;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+}
+#form{
+    background-image: url('/web-projects/Portfolio/ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.s0{
+    width: 100%;
+
+}
+.s1 { 
+    margin: 0;
+    text-align: center;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 20px;
+    
+}
+h1{
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 48px;
+    align-content: center;   
+}
+h2{
+    font-size: 30px;
+    text-align: center;  
+}
+h3{
+    text-align: center;
+    align-content: center;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 25px;
+    
+}
+.s2 {
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0;
+    margin-top: 50px;
+    display: block;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 22px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    color: black; 
+}
+.column.one{
+    font-weight: lighter;
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+}
+
+.column.two{
+    font-weight: lighter;
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+}
+.column.three {
+    font-weight: lighter;
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #eddfea;
+}
+.s3 {
+   display: inline-block;
+    margin: 0;
+    border-radius: 20px;
+    font-family:  Fashionism; src: url('/web-projects/Portfolio/ESN_Portfolio/assets/fashl954.ttf');
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;    
+
+}
+ul {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.footer {
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-around;
+    text-align: center;
+    height:100px ;
+    color:  #eddfea;
+    width: 100%;
+    font-size: 20px;
+}
+.PDFcontainer{
+
+
+}
