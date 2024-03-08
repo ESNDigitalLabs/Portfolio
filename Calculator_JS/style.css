@@ -7,21 +7,27 @@ body{
     padding: 0;
     margin: 0;
     align-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('/ESN_Portfolio/assets/shutterstock_1121814242.jpg');
+    background-size: 100%; 
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
 }
-
 .calculator-grid {
     display: grid;
+    grid-area: center;
     justify-content: center;
     align-content: center;
-    /* border: solid 2px; */
     border-radius: 45px;
-    max-width: 400px;
+    width: 400px;
     margin-bottom: 10px;
     margin-left: 50px;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
     background: linear-gradient(to left, #e0218a, #e0ebe5);
     box-shadow: -1px -2px 5px #e0218a, 2px 1px 20px #e0ebe5;
+    
 
 }
 .output{
@@ -80,9 +86,24 @@ footer {
     flex-direction: column;
     font-family: Barbie; src: url('/web-projects/JavascriptCalculator/barbie.ttf');
     font-size: normal;
+    color: #e2dcdc;
 
 }
 h1{
     padding: 50px;
+    font-size: 60px;
     background: linear-gradient(to right, #e0218a, #e0ebe5);
+    opacity: 0.8;
+    
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for screens less than 600px wide */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px */
 }
