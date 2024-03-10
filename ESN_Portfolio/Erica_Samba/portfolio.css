@@ -90,19 +90,20 @@ body{
     cursor: pointer;
 }
 .s4 { 
-    padding-top: 0;
-    padding-left: 100px;
+    /* padding-top: 0;
+    padding-left: 100px; */
+    padding: 100px;
     text-align: justify;
     font-size: 25px;
-    width: 1000px;
+    /* max-width: 1000px; */
 }
 h1{
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
-    font-size: 48px;
+    font-size: 50px;
     align-content: center; 
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;  
 }
 .content{
