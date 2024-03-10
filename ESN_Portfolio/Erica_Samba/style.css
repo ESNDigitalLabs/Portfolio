@@ -26,6 +26,7 @@ button{
 button:hover{
     background-color: rgb(78, 57, 80);
     color: #eddfea;
+    border-radius: 40px;
     font-weight: bolder;
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
 }
