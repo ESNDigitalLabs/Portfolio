@@ -1,3 +1,8 @@
+:root{
+  --maincolor: black;
+
+}
+
 nav{
     color: #eddfea;
     text-decoration-line: none;
@@ -16,6 +21,7 @@ button{
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
     background-color: #eddfea;
     font-weight: bolder;
+    color: var(--maincolor);
 }
 button:hover{
     background-color: rgb(78, 57, 80);

@@ -59,7 +59,7 @@ body{
 }
 .s1 { 
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     text-align: center;
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
     font-size: 20px;
@@ -67,8 +67,6 @@ body{
 }
 #skills{
     text-align: center;
-    
-
 }
 #projects {
     display: inline;
@@ -226,8 +224,9 @@ h2{
     }
   }
 .text-focus-in {
-    font-size: 50px;
+    font-size: 65px;
     color: #e2a5d5;
+    text-shadow: 2px 2px 3px #eddfea;
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashr954.ttf');
     -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;
     animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5s both;

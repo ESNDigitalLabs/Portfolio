@@ -13,8 +13,10 @@
   <style>
   body {
     background-image: url('/ESN_Portfolio/assets/shutterstock_1121814242.jpg');
-    background-size: 100%;
-    opacity: unset; 
+   
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%; 
         }
   nav{
     color: #eddfea;
@@ -59,6 +61,16 @@
     text-align: center;
     border-radius: 40px;
       }
+  .finalDiv{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    overflow: hidden;
+
+  }
   @media only screen and (max-width: 600px) {
    /* Styles for screens less than 600px wide */
           }
@@ -91,6 +103,6 @@
     </iframe>
     <!-- form.123formbuilder.com script ends here -->
     </section>
-<div>  </div>
+<div class="finalDiv"></div>
 </body>
 </html>
