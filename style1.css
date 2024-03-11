@@ -58,7 +58,7 @@
       -webkit-backdrop-filter: blur( 6.5px );
       border-radius: 20px;
   }
-  .access{
+  button.access{
       display: inline-block;
       float: left;
       font-family:  Fashionism; src: url('ESN_Portfolio/assets/fashl954.ttf');
