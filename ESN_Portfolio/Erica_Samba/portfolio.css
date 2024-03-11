@@ -18,6 +18,9 @@ button{
     background-color: #eddfea;
     font-weight: bolder;
 }
+button a{
+  color: var(--maincolor);
+}
 button:hover{
     background-color: rgb(78, 57, 80);
     color: #eddfea;
@@ -84,8 +87,6 @@ body{
     font-size: 25px;
     font-family:  Fashionism; src: url('/ESN_Portfolio/assets/fashl954.ttf');
     color:  #eddfea;
-    text-decoration: none;
-    text-decoration-line: none;
     align-content: center;
     cursor: pointer;
 }
@@ -167,6 +168,11 @@ h2{
     font-weight: bolder;
     background-color: black;
     color: #e2a5d5;
+}
+div a{
+  color: #eddfea;
+  text-decoration: none;
+ 
 }
 .slide-in-left{
     text-align: center;
